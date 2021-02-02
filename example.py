@@ -2,10 +2,10 @@
 
 def git_opeation():
     print("I am adding example.py file to the remote repository.")
-    name = input("Enter a name: ")
-    age = int(input())
+    yourName = input("Enter a name: ")
+    age = int(input("Enter age: "))
 
-    print("Your name is ", name)
+    print("Your name is ", yourName)
 
     if age < 18 :
         print("You are not young")
