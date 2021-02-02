@@ -7,10 +7,12 @@ def git_opeation():
 
     print("Your name is ", yourName)
 
-    if age < 18 :
-        print("You are not young")
-    else :
+    if age < 15 :
+        print("You are a kid")
+    elif age < 18 :
         print("You are young")
+    else :
+        print("You are adult")
     
 git_opeation()
 
